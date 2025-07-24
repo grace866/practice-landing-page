@@ -17,11 +17,12 @@
 .links{
     display: flex;
     gap: 16px;
+    width: 400px;
 }
 
 .hero{
     background-color: #1F2947;
-    padding: 0px 250px 100px;
+    padding: 0vw 18vw 5vw;
 }
 
 .hero-text{
@@ -29,27 +30,27 @@
     color: #E5E7EB;
 }
 
-.main-text{
+.header{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
  
-.media {
+.media{
   display: flex;
   align-items: stretch;
   justify-content: space-between;
 }
 
-.media-image {
+.media-image{
   width: 400px;
   height: auto;
 }
 
-.media-text {
+.media-text{
   flex: 1;
-  padding: 16px;
   max-width: 450px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,4 +65,36 @@ button{
   color: #F9FAF8;
   cursor: pointer;
 }
+
+.info{
+  padding: 0vw 18vw 5vw;
+}
+
+.info-header{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.images{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.image img{
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 5px solid #1F2947;
+}
+
+.image p{
+  max-width: 200px;
+  text-align: center;
+}
+
 
