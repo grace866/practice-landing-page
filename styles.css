@@ -116,4 +116,35 @@ button{
   text-align: right;
 }
 
+.signup{
+  padding: 10vw 18vw 10vw;
+}
+
+.tab{
+  background-color: #3882f6;
+  padding: 40px 30px;
+  max-width: 800px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.signup-text{
+  color: #F9FAF8;
+}
+
+.signup-header{
+  font-weight: 700;
+}
+
+.signup-body{
+  font-weight: 300;
+}
+
+.signup button{
+  border: 1px solid #F9FAF8;;
+}
+
 
